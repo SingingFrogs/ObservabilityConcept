@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.WebApi", "Books.WebApi\Books.WebApi.csproj", "{263C0727-E9DD-4DC0-B09F-5D6647CC8AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Domain", "Books.Domain\Books.Domain.csproj", "{97723521-61E5-4AAD-8EB5-253517881898}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9D46A324-71CC-4A73-AA8F-6E3443F131BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.MsSqlDb", "Books.MsSqlDb\Books.MsSqlDb.csproj", "{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{263C0727-E9DD-4DC0-B09F-5D6647CC8AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263C0727-E9DD-4DC0-B09F-5D6647CC8AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263C0727-E9DD-4DC0-B09F-5D6647CC8AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263C0727-E9DD-4DC0-B09F-5D6647CC8AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97723521-61E5-4AAD-8EB5-253517881898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97723521-61E5-4AAD-8EB5-253517881898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97723521-61E5-4AAD-8EB5-253517881898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97723521-61E5-4AAD-8EB5-253517881898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B58708C0-BF4D-48C4-B1EC-A5F5B39668B9} = {9D46A324-71CC-4A73-AA8F-6E3443F131BE}
+	EndGlobalSection
+EndGlobal
